@@ -1,10 +1,10 @@
 var React = require('react');
-var {Link} = require('react-router');
+var Clock = require('Clock');
 
 var Countdown = (props) => {
   return (
     <div>
-      <h1>Countdown.jsx component</h1>
+      <Clock totalSeconds={130}/>
     </div>
   )
 };
