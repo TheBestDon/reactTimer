@@ -9,7 +9,7 @@ module.exports =  function (config) {
         frameworks: [
             'mocha'
         ],
-        files: ['app/tests/**/*.test.js'],
+        files: ['app/tests/**/*.test.jsx'],
         preprocessors: {
             'app/tests/**/*.test.js': ['webpack', 'sourcemap']
         },
