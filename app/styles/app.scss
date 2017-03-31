@@ -1,5 +1,13 @@
 @import "base/variables";
-@import "components/_nav.scss";
-@import "components/_clock.scss";
-@import "components/_controls.scss";
-@import "components/_page-title.scss";
+
+//foundation
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
+
+//Components
+@import "components/_nav";
+@import "components/_clock";
+@import "components/_controls";
+@import "components/_page-title";
+
