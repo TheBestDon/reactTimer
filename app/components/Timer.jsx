@@ -44,6 +44,10 @@ getInitialState: function () {
       }
     }, 1000);
   },
+  componentWillUnmount: function () {
+    clearInterval(this.timer);
+    this.timer = undefined;
+  },
   render: function () {
     var{count, countdownStatus} = this.state;
     var renderControlArea = () => {
